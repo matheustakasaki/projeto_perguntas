@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 
-main() {
-  runApp(const PerguntaApp());
-}
+main() => runApp(const PerguntaApp());
 
 class PerguntaApp extends StatelessWidget {
   const PerguntaApp({super.key});
