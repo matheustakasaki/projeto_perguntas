@@ -12,6 +12,7 @@ class PerguntaApp extends StatelessWidget {
         appBar: AppBar(
           title: const Text('Perguntas'),
         ),
+        body: const Text('Olá Flutter'),
       ),
     );
   }
