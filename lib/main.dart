@@ -2,11 +2,11 @@ import 'package:flutter/material.dart';
 
 main() => runApp(const PerguntaApp());
 
-class PerguntasAppState extends State<PerguntaApp> {
-  var pergutaSelecionada = 0;
-  void responder() {
+class _PerguntasAppState extends State<PerguntaApp> {
+  var _pergutaSelecionada = 0;
+  void _responder() {
     setState(() {
-      pergutaSelecionada++;
+      _pergutaSelecionada++;
     });
 
     debugPrint('Pergunta respondida');
@@ -26,15 +26,15 @@ class PerguntasAppState extends State<PerguntaApp> {
         ),
         body: Column(
           children: <Widget>[
-            Text(perguntas[pergutaSelecionada]),
+            Text(perguntas[_pergutaSelecionada]),
             ElevatedButton(
-                onPressed: responder, child: const Text("Resposta 1")),
-            Text(perguntas[pergutaSelecionada]),
+                onPressed: _responder, child: const Text("Resposta 1")),
+            Text(perguntas[_pergutaSelecionada]),
             ElevatedButton(
-                onPressed: responder, child: const Text("Resposta 2")),
-            Text(perguntas[pergutaSelecionada]),
+                onPressed: _responder, child: const Text("Resposta 2")),
+            Text(perguntas[_pergutaSelecionada]),
             ElevatedButton(
-                onPressed: responder, child: const Text("Resposta 3")),
+                onPressed: _responder, child: const Text("Resposta 3")),
           ],
         ),
       ),
@@ -46,7 +46,7 @@ class PerguntaApp extends StatefulWidget {
   const PerguntaApp({super.key});
 
   @override
-  PerguntasAppState createState() {
-    return PerguntasAppState();
+  _PerguntasAppState createState() {
+    return _PerguntasAppState();
   }
 }
