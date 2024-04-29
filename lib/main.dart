@@ -35,6 +35,9 @@ class _PerguntasAppState extends State<PerguntaApp> {
             Text(perguntas[_pergutaSelecionada]),
             ElevatedButton(
                 onPressed: _responder, child: const Text("Resposta 3")),
+            Text(perguntas[_pergutaSelecionada]),
+            ElevatedButton(
+                onPressed: _responder, child: const Text("Resposta 4")),
           ],
         ),
       ),
