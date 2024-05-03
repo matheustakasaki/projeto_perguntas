@@ -1,7 +1,6 @@
 # projeto_perguntas
 
-A new Flutter project.
-
+Projeto para fundamentação dos conceitos do Flutter
 ## Getting Started
 
 This project is a starting point for a Flutter application.
