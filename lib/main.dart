@@ -16,7 +16,8 @@ class _PerguntasAppState extends State<PerguntaApp> {
   Widget build(BuildContext context) {
     final List<String> perguntas = [
       'Qual a sua cor favorita?',
-      'Qual o seu animal favorito?'
+      'Qual o seu animal favorito?',
+      'Qual o seu lugar favorito?'
     ];
 
     return MaterialApp(
