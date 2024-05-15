@@ -19,6 +19,7 @@ class _PerguntasAppState extends State<PerguntaApp> {
       'Qual o seu animal favorito?',
       'Qual o seu lugar favorito?',
       'Qual a sua música favorita?',
+      'Qual seu jogo favorito?'
 
     ];
 
