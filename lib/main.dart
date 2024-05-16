@@ -18,9 +18,6 @@ class _PerguntasAppState extends State<PerguntaApp> {
       'Qual a sua cor favorita?',
       'Qual o seu animal favorito?',
       'Qual o seu lugar favorito?',
-      'Qual a sua música favorita?',
-      'Qual seu jogo favorito?'
-
     ];
 
     return MaterialApp(
