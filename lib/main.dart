@@ -17,6 +17,7 @@ class _PerguntasAppState extends State<PerguntaApp> {
     final List<String> perguntas = [
       'Qual a sua cor favorita?',
       'Qual o seu animal favorito?',
+      'Qual o seu filme favorito?'
     ];
 
     return MaterialApp(
